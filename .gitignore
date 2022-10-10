@@ -35,3 +35,7 @@ ExportedObj/
 
 # Visual Studio cache directory
 .vs/
+
+# Apple System file
+.DS_Store
+*/.DS_Store
