@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class Back : MonoBehaviour {
@@ -15,6 +16,6 @@ public class Back : MonoBehaviour {
 
     public void goMain(GameObject obj)
     {
-        Application.LoadLevel(0);
-    }
+		SceneManager.LoadScene(0);
+	}
 }

@@ -30,7 +30,8 @@ public class ExpHandler : MonoBehaviour
 
         t -= Time.deltaTime;
 
-        txt.color = new Color(txt.color.r, txt.color.g, txt.color.b, t);
+        //txt.color = new Color(txt.color.r, txt.color.g, txt.color.b, t);
+        txt.color = Color.green;
 
         if (t < 0)
         {

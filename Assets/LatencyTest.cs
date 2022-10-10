@@ -64,7 +64,7 @@ public class LatencyTest : MonoBehaviour {
     {
         GUIStyle myStyle = new GUIStyle(GUI.skin.GetStyle("label"));
         myStyle.fontSize = 32;
-        myStyle.normal.textColor = Color.black;
+        myStyle.normal.textColor = Color.white;
         GUI.Label(new Rect(Screen.width / 2, 0, 400, 100), "FPS: " + (int)m_FPS+"   times:"+clickTime, myStyle);
     } 
 }

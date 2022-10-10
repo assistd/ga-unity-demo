@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.IO;
 using System.Reflection;
+using UnityEngine.SceneManagement;
 
 public class MainControl : MonoBehaviour {
 
@@ -86,16 +87,16 @@ public class MainControl : MonoBehaviour {
 
     public void LoadFindElements(GameObject obj)
     {
-        Application.LoadLevel("FindElements");
+        SceneManager.LoadScene("FindElements");
     }
 
     public void LoadInteraction(GameObject obj)
     {
-        Application.LoadLevel("Interaction");
+        SceneManager.LoadScene("Interaction");
     }
 
     public void LoadJoyStick(GameObject obj)
     {
-        Application.LoadLevel(3);
+        SceneManager.LoadScene("latency");
     }
 }
